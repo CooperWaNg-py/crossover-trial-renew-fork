@@ -2,7 +2,7 @@
 
 # Ensure pidof is installed; install via Homebrew if not present
 if ! command -v pidof &>/dev/null; then
-    echo "pidof not found. Installing pidof via Homebrew..."
+    echo "pidof not found in computer. Installing pidof with Homebrew..."
     brew install pidof
 fi
 
